@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/TableBG"
+             android:layout_width="fill_parent"
+             android:layout_height="70dp"
+             android:background="@drawable/list_selector"
+             android:orientation="vertical"
+             android:paddingBottom="10dp"
+             android:paddingTop="5dp">
+
+    <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+
+        <TextView
+                android:id="@+id/Info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="33"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/info"
+                android:textColor="@color/blue"
+                android:textSize="25sp"/>
+
+        <TextView
+                android:id="@+id/Duration"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="33"
+                android:gravity="left|center_vertical"
+                android:text="@string/duration"
+                android:textColor="@color/blue"
+                android:textSize="25sp"/>
+
+        <TextView
+                android:id="@+id/Money"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="33"
+                android:gravity="left|center_vertical"
+                android:text="@string/MoneyMadeTitle"
+                android:textColor="@color/blue"
+                android:textSize="25sp"/>
+    </TableRow>
+
+    <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/dateDisp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="33"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:layout_marginTop="5dp"
+                android:shadowRadius="2"
+                android:text="@string/date"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+        <TextView
+                android:id="@+id/start_finish"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="33"
+                android:gravity="left|center_vertical"
+                android:shadowColor="@color/black"
+                android:layout_marginTop="5dp"
+
+                android:shadowDx="2"
+                android:shadowRadius="2"
+                android:text="@string/start"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+        <TextView
+                android:id="@+id/shiftDisp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="33"
+                android:gravity="left|center_vertical"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowRadius="2"
+                android:layout_marginTop="5dp"
+
+                android:text="@string/shiftDisplay"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+    </TableRow>
+
+    <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/day"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="33"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowRadius="2"
+                android:layout_marginTop="2dp"
+
+                android:text="Day"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+        <TextView
+                android:id="@+id/timeInShift"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="33"
+                android:gravity="left|center_vertical"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowRadius="2"
+                android:layout_marginTop="2dp"
+
+                android:text="length"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+        <TextView
+                android:id="@+id/insert"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="33"
+                android:gravity="left|center_vertical"
+                android:layout_marginTop="2dp"
+
+                android:text=""
+                android:textColor="@color/Red"
+                android:textSize="20sp"/>
+    </TableRow>
+
+</TableLayout>

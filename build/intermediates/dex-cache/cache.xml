@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Unknown\Android Studio Workspace\Celery\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-f94dda1a275916878971aff028e182dd491b66f9.jar"
+        jar="C:\Users\Unknown\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="C:\Users\Unknown\Android Studio Workspace\Celery\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-ef3a9d000d262af391da91f8080da0ca43dbd073.jar"
+        jar="C:\Users\Unknown\Android Studio Workspace\Celery\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\Users\Unknown\Android Studio Workspace\Celery\app\build\intermediates\pre-dexed\debug\classes-4306699142e3562a330c5676a99bcd5dca340b25.jar"
+        jar="C:\Users\Unknown\Android Studio Workspace\Celery\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+
+</pre-dex-items>

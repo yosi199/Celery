@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Celery</string>
+    <color name="Green2">#9dd742</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="Blie">#35312c</color>
+    <color name="Red">#d31a11</color>
+    <color name="blue">#d0e32f</color>
+    <color name="gray">#3f3d3c</color>
+    <string name="settings">Settings</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="NoShifts">No Shifts To Display"</string>
+    <string name="Shifts">Shifts</string>
+    <string name="home">Home</string>
+    <string name="date">Date:</string>
+    <string name="start">Start</string>
+    <string name="shiftDisplay">ShiftDisp</string>
+    <string name="SetDate">Set Date:</string>
+    <string name="EndTime">End Time:</string>
+    <string name="StartTime">Start Time:</string>
+    <string name="info">Date:</string>
+    <string name="MoneyMadeTitle">Money Made:</string>
+    <string name="duration">Duration:</string>
+    <string name="SettingsNote">Please note, settings will only take effect the NEXT time you enter
+        a shift.
+    </string>
+
+    <string name="optionsString">Options:</string>
+    <string name="deleteString">Delete</string>
+    <string name="editString">Edit</string>
+
+    <string name="PaidHourly">Paid Hourly:</string>
+    <string name="currencyName">Currency Name:</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="AuthorName">By Yosi Mizrachi @2012</string>
+
+
+    <string name="found_its_a_new_month">According to today\'s date it looks like it\'s a new
+        payroll month. Would you
+        like to start a new month?
+    </string>
+    <string name="newMonthDateInputString">New Month:</string>
+    <string name="Version">V1.0.2</string>
+    <string name="GlobalSal">Global Salary (No Money Data Displayed)</string>
+    <string name="monthlyHours">Hours/Month</string>
+
+    <string name="CheckIn">Check In</string>
+    <string name="CheckOut">Check Out</string>
+    <string name="Exit_String">Exit</string>
+    <string name="Delete_DB">Clear All Shifts</string>
+
+    <string name="next">Next</string>
+    <string name="makeItSo">Make It So!</string>
+    <color name="progressBarDarker">#6c941b</color>
+    <string name="SoFarIveDone">So far I\'ve done:</string>
+    <string name="Last_Shift_String">Last Shift:</string>
+    <string name="hoursSum">Total Time:</string>
+
+
+</resources>

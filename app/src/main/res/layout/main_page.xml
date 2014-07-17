@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/reative"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+            android:id="@+id/show_Last_shift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/reative"
+            android:text="@string/Last_Shift_String"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            tools:ignore="NotSibling"/>
+
+    <TextView
+            android:id="@+id/hoursSUM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/show_Last_shift"
+            android:layout_marginTop="7dp"
+            android:text="@string/hoursSum"
+            android:textColor="@color/white"
+            android:textSize="23sp"/>
+
+    <com.views.HoloCircularProgressBar
+            android:id="@+id/holoCircularProgressBarInner"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_alignTop="@+id/reative"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            app:progress_background_color="@android:color/darker_gray"
+            app:progress_color="@color/progressBarDarker"
+            app:stroke_width="7"
+            tools:ignore="NotSibling"/>
+
+    <com.views.HoloCircularProgressBar
+            android:id="@+id/holoCircularProgressBarOuter"
+            android:layout_width="255dp"
+            android:layout_height="255dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            app:progress_color="@color/Green2"
+            app:stroke_width="5"/>
+
+    <Button
+            android:id="@+id/button1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignBaseline="@id/holoCircularProgressBarOuter"
+            android:layout_centerInParent="true"
+            android:background="@drawable/list_selector_main_button"
+            android:shadowColor="@color/black"
+            android:shadowDx="3"
+            android:shadowRadius="10"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/buttonSubText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"
+            android:text="Long-click to add shift"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+    <TextView
+            android:id="@+id/buttonSubText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonSubText"
+            android:layout_below="@id/buttonSubText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:text="Click to cancel"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+    <TextView
+            android:id="@+id/subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/holoCircularProgressBarOuter"
+            android:layout_below="@id/holoCircularProgressBarOuter"
+            android:layout_marginTop="13dp"
+            android:text="@string/SoFarIveDone"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    <ImageView
+            android:id="@+id/darkerSquare"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/subtitle2"
+            android:layout_below="@id/subtitle2"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/darker_square"/>
+
+    <ImageView
+            android:id="@+id/lighterSquare"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/darkerSquare"
+            android:layout_below="@id/darkerSquare"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lighter_square"/>
+
+    <TextView
+            android:id="@+id/monthlyHoursTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/darkerSquare"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/darkerSquare"
+            android:text="fsdgsdgsgdgs"
+            android:textSize="23sp"/>
+
+    <TextView
+            android:id="@+id/completedTillNowTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/lighterSquare"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/lighterSquare"
+            android:text="fsdgsdgsgdgs"
+            android:textSize="23sp"/>
+
+    <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer"
+            android:layout_above="@id/holoCircularProgressBarOuter"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="23sp"
+
+            />
+
+</RelativeLayout>

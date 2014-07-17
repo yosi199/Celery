@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="@color/gray"
+            android:gravity="center">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+        <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center">
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <CheckBox
+                    android:id="@+id/GlobalSal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/GlobalSal"
+                    android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/salaryLabel"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="80"
+                    android:gravity="center_vertical"
+                    android:text="@string/PaidHourly"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"/>
+
+            <EditText
+                    android:id="@+id/enterSalary"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="20"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:text="0"
+                    android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/currency"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="80"
+                    android:gravity="center_vertical"
+                    android:text="@string/currencyName"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"/>
+
+            <EditText
+                    android:id="@+id/enterCurrency"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="20"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="textCapCharacters"
+                    android:text="USD"
+                    android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/newMonthDate"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="80"
+                    android:gravity="center_vertical"
+                    android:text="@string/newMonthDateInputString"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"/>
+
+            <EditText
+                    android:id="@+id/newMonthEditBox"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="20"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="textCapCharacters"
+                    android:text="1"
+                    android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/monthlyNeededHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/monthlyNeededHoursText"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="80"
+                    android:gravity="center_vertical"
+                    android:text="@string/monthlyHours"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"/>
+
+            <EditText
+                    android:id="@+id/monthlyNeededHoursEditText"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="20"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="numberDecimal"
+                    android:text="180"
+                    android:textSize="20sp">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/SettingsNote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/SettingsNote"
+                    android:textColor="@color/Green2"
+                    android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/CancelSettings"
+                        android:layout_width="100dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/list_selector"
+                        android:text="@string/cancel"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"/>
+
+                <Button
+                        android:id="@+id/SaveSettings"
+                        android:layout_width="100dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/list_selector"
+                        android:gravity="center"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:text="@string/save"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/By"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/AuthorName"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="16sp"/>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/Version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/Version"
+                    android:textSize="16sp"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
